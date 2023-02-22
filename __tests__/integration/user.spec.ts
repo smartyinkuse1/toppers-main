@@ -11,7 +11,7 @@ describe('Register Get Users Handler', () => {
             body: null,
             rawBody: 'null',
             pathParameters: null,
-            queryStringParameters: null,
+            queryStringParameters: { 'userName': undefined },
             multiValueQueryStringParameters: null,
             stageVariables: null,
             resource: '',
